@@ -1,0 +1,2626 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "parkeringsautomater",
+	"features" : [
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6978236147, 56.0373818896 ]
+			},
+			"properties" : {
+				"Namn" : "Sockerbruksgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 99,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6879330997, 56.051373115 ]
+			},
+			"properties" : {
+				"Namn" : "Drottninggatan vs",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 16,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9522",
+				"EasyPark_nr" : "4022",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7001456767, 56.0392281049 ]
+			},
+			"properties" : {
+				"Namn" : "Glasbruket",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "9:00-20:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9532",
+				"EasyPark_nr" : "4032",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7047014732, 56.0406738636 ]
+			},
+			"properties" : {
+				"Namn" : "Gasverksgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 8,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9529",
+				"EasyPark_nr" : "4029",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.703126193, 56.0365111653 ]
+			},
+			"properties" : {
+				"Namn" : "Carl Krooks gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 14,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9514",
+				"EasyPark_nr" : "4014",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7006258734, 56.0431572707 ]
+			},
+			"properties" : {
+				"Namn" : "Thure Röings gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 20,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : "4081",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6904205128, 56.0479345427 ]
+			},
+			"properties" : {
+				"Namn" : "Sundstorgsgaraget -1",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 186,
+				"Avgbeltid_vardag" : "8:00-18:00",
+				"Avgbeltid_vard_helg" : "(8:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : "5",
+				"Tele_P_nr" : "9511",
+				"EasyPark_nr" : "4102",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6902212683, 56.0482351884 ]
+			},
+			"properties" : {
+				"Namn" : "Sundstorgsgaraget -1",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "8:00-18:00",
+				"Avgbeltid_vard_helg" : "(8:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : "5",
+				"Tele_P_nr" : "9511",
+				"EasyPark_nr" : "4102",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6904175571, 56.0478851783 ]
+			},
+			"properties" : {
+				"Namn" : "Sundstorgsgaraget -2",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 197,
+				"Avgbeltid_vardag" : "8:00-18:00",
+				"Avgbeltid_vard_helg" : "(8:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : "5",
+				"Tele_P_nr" : "9511",
+				"EasyPark_nr" : "4102",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6929213533, 56.049364272 ]
+			},
+			"properties" : {
+				"Namn" : "Fågelsångsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 9,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9526",
+				"EasyPark_nr" : "4026",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6848227366, 56.0480905392 ]
+			},
+			"properties" : {
+				"Namn" : "Småbåtshamnen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 54,
+				"Avgbeltid_vardag" : "8:00-20:00",
+				"Avgbeltid_vard_helg" : "(8:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7014153988, 56.0396225027 ]
+			},
+			"properties" : {
+				"Namn" : "Nedre Holländaregatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 10,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9555",
+				"EasyPark_nr" : "4056",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7044024367, 56.0361057256 ]
+			},
+			"properties" : {
+				"Namn" : "Bryggaregatan v.s",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 18,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9512",
+				"EasyPark_nr" : "4012",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7006366285, 56.0443242856 ]
+			},
+			"properties" : {
+				"Namn" : "Bastionen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 49,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9501",
+				"EasyPark_nr" : "4001",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6841567993, 56.0493988743 ]
+			},
+			"properties" : {
+				"Namn" : "Turfiskebåtarna",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 30,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-18:00)",
+				"Avgbeltid_helg" : "9:00-18:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9584",
+				"EasyPark_nr" : "4085",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6965432736, 56.0494824461 ]
+			},
+			"properties" : {
+				"Namn" : "Nedre Långvinkelsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 6,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9556",
+				"EasyPark_nr" : "4057",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7120945586, 56.0505928077 ]
+			},
+			"properties" : {
+				"Namn" : "Olympia",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 100,
+				"Avgbeltid_vardag" : "8:00-17:00",
+				"Avgbeltid_vard_helg" : null,
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9521",
+				"EasyPark_nr" : "4104",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7063779316, 56.0378060312 ]
+			},
+			"properties" : {
+				"Namn" : "Furutorpsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 8,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9595",
+				"EasyPark_nr" : "4095",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6996926128, 56.0466814179 ]
+			},
+			"properties" : {
+				"Namn" : "S:t Nicolai",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9557",
+				"EasyPark_nr" : "4058",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7074098354, 56.048638492 ]
+			},
+			"properties" : {
+				"Namn" : "Olympiaskolan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 63,
+				"Avgbeltid_vardag" : "7:00-18:00",
+				"Avgbeltid_vard_helg" : null,
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9560",
+				"EasyPark_nr" : "4061",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.707666225, 56.0384654689 ]
+			},
+			"properties" : {
+				"Namn" : "Gustav Adolfs gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 16,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9533",
+				"EasyPark_nr" : "4033",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6977080076, 56.0449592673 ]
+			},
+			"properties" : {
+				"Namn" : "Karlsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 8,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9544",
+				"EasyPark_nr" : "4045",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6897999277, 56.0461818763 ]
+			},
+			"properties" : {
+				"Namn" : "Ångfärjestationen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9590",
+				"EasyPark_nr" : "4091",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6875712155, 56.0506615359 ]
+			},
+			"properties" : {
+				"Namn" : "Kungsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 24,
+				"Avgbeltid_vardag" : "9:00-22:00",
+				"Avgbeltid_vard_helg" : "(9:00-22:00)",
+				"Avgbeltid_helg" : "9:00-22:00",
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9600",
+				"EasyPark_nr" : "4105",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6845455579, 56.0534437551 ]
+			},
+			"properties" : {
+				"Namn" : "Karl Johans gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 24,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9543",
+				"EasyPark_nr" : "4044",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.706958563, 56.0365841686 ]
+			},
+			"properties" : {
+				"Namn" : "Bryggeriet",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 36,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9510",
+				"EasyPark_nr" : "4010",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7069639672, 56.0390091145 ]
+			},
+			"properties" : {
+				"Namn" : "Gustav Adolfs gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 13,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9534",
+				"EasyPark_nr" : "4034",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6978940586, 56.0431942149 ]
+			},
+			"properties" : {
+				"Namn" : "Trädgårdsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 23,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9582",
+				"EasyPark_nr" : "4083",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6941280193, 56.0465572568 ]
+			},
+			"properties" : {
+				"Namn" : "Stortorget",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 40,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "20",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9572",
+				"EasyPark_nr" : "4073",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6847122397, 56.0529912219 ]
+			},
+			"properties" : {
+				"Namn" : "Karl Johans gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 19,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9543",
+				"EasyPark_nr" : "4044",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6943431247, 56.0460881145 ]
+			},
+			"properties" : {
+				"Namn" : "Norra Kyrkogatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 8,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9593",
+				"EasyPark_nr" : "4093",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7010662103, 56.0392534509 ]
+			},
+			"properties" : {
+				"Namn" : "Carl Krooks gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 6,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : "4015",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6969822605, 56.0466058561 ]
+			},
+			"properties" : {
+				"Namn" : "Billeplatsen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 24,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9504",
+				"EasyPark_nr" : "4004",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6967723044, 56.039457336 ]
+			},
+			"properties" : {
+				"Namn" : "Oceangatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 62,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6940069042, 56.0463233839 ]
+			},
+			"properties" : {
+				"Namn" : "Stortorget s.s",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 9,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "20",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9572",
+				"EasyPark_nr" : "4073",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6843247991, 56.0513273503 ]
+			},
+			"properties" : {
+				"Namn" : "Magasinet",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 20,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9513",
+				"EasyPark_nr" : "4013",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7084164266, 56.0442842159 ]
+			},
+			"properties" : {
+				"Namn" : "Södra Stenbocksgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 19,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : null,
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9576",
+				"EasyPark_nr" : "4077",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6977068892, 56.0497758443 ]
+			},
+			"properties" : {
+				"Namn" : "Nedre Långvinkelsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 13,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9556",
+				"EasyPark_nr" : "4057",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7059550814, 56.0375576366 ]
+			},
+			"properties" : {
+				"Namn" : "Furutorpsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 9,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9595",
+				"EasyPark_nr" : "4095",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6889887561, 56.0490957357 ]
+			},
+			"properties" : {
+				"Namn" : "Roskildegatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 8,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9599",
+				"EasyPark_nr" : "4101",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7052630167, 56.0515940623 ]
+			},
+			"properties" : {
+				"Namn" : "Idrottens hus",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "8:00-22:00",
+				"Avgbeltid_vard_helg" : "(8:00-22:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6830004296, 56.0571175513 ]
+			},
+			"properties" : {
+				"Namn" : "Fria bad",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 35,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9525",
+				"EasyPark_nr" : "4025",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7103044132, 56.0395449458 ]
+			},
+			"properties" : {
+				"Namn" : "Gasverksgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 11,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9531",
+				"EasyPark_nr" : "4031",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.697157546, 56.0369742654 ]
+			},
+			"properties" : {
+				"Namn" : "Sockerbruksgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 33,
+				"Avgbeltid_vardag" : "0:00-24:00",
+				"Avgbeltid_vard_helg" : "(0:00-24:00)",
+				"Avgbeltid_helg" : "0:00-24:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : "42016",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.68978637, 56.0480527259 ]
+			},
+			"properties" : {
+				"Namn" : "Sundstorgsgaraget -1",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "8:00-18:00",
+				"Avgbeltid_vard_helg" : "(8:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : "5",
+				"Tele_P_nr" : "9511",
+				"EasyPark_nr" : "4102",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6907019792, 56.0455955114 ]
+			},
+			"properties" : {
+				"Namn" : "Hamntorget västra",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 121,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9537",
+				"EasyPark_nr" : "4037",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7062289593, 56.0384557643 ]
+			},
+			"properties" : {
+				"Namn" : "Södra Tvärgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 15,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : "4080",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6898431502, 56.0467055819 ]
+			},
+			"properties" : {
+				"Namn" : "Ångfärjestationen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 406,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9590",
+				"EasyPark_nr" : "4091",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7081904334, 56.0577371387 ]
+			},
+			"properties" : {
+				"Namn" : "Fredriksdal",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "9:00-22:00",
+				"Avgbeltid_vard_helg" : "9:00-22:00",
+				"Avgbeltid_helg" : "9:00-22:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7045822109, 56.0536515531 ]
+			},
+			"properties" : {
+				"Namn" : "Ishallen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 59,
+				"Avgbeltid_vardag" : "8:00-22:00",
+				"Avgbeltid_vard_helg" : "(8:00-22:00)",
+				"Avgbeltid_helg" : "8:00-22:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9540",
+				"EasyPark_nr" : "4040",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.705650054, 56.0415691446 ]
+			},
+			"properties" : {
+				"Namn" : "Wieselgrensgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 12,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9587",
+				"EasyPark_nr" : "4088",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6893462927, 56.0470850348 ]
+			},
+			"properties" : {
+				"Namn" : "Ångfärjestationen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9590",
+				"EasyPark_nr" : "4091",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6985362321, 56.0446243268 ]
+			},
+			"properties" : {
+				"Namn" : "Prästgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 7,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9566",
+				"EasyPark_nr" : "4067",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7014155467, 56.0386935706 ]
+			},
+			"properties" : {
+				"Namn" : "Carl Krooks gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 14,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9515",
+				"EasyPark_nr" : "4015",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7026305219, 56.0411367039 ]
+			},
+			"properties" : {
+				"Namn" : "Gasverksgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 9,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9528",
+				"EasyPark_nr" : "4028",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6856192629, 56.0468206719 ]
+			},
+			"properties" : {
+				"Namn" : "Småbåtshamnen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 84,
+				"Avgbeltid_vardag" : "8:00-20:00",
+				"Avgbeltid_vard_helg" : "(8:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9570",
+				"EasyPark_nr" : "4071",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6904991034, 56.0467391217 ]
+			},
+			"properties" : {
+				"Namn" : "Kungsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 19,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "20",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9549",
+				"EasyPark_nr" : "4050",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6858903672, 56.0512350548 ]
+			},
+			"properties" : {
+				"Namn" : "Kranföraregatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 7,
+				"Avgbeltid_vardag" : "9:00-22:00",
+				"Avgbeltid_vard_helg" : "(9:00-22:00)",
+				"Avgbeltid_helg" : "9:00-22:00",
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9506",
+				"EasyPark_nr" : "4006",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6888011094, 56.0487852743 ]
+			},
+			"properties" : {
+				"Namn" : "Kungsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 22,
+				"Avgbeltid_vardag" : "9:00-22:00",
+				"Avgbeltid_vard_helg" : "(9:00-22:00)",
+				"Avgbeltid_helg" : "9:00-22:00",
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9602",
+				"EasyPark_nr" : "4106",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6894147647, 56.0511294214 ]
+			},
+			"properties" : {
+				"Namn" : "Pålsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 13,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9567",
+				"EasyPark_nr" : "4068",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7039519991, 56.0440401269 ]
+			},
+			"properties" : {
+				"Namn" : "Prins Kristians gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 22,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9562",
+				"EasyPark_nr" : "4063",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6842211682, 56.0539607846 ]
+			},
+			"properties" : {
+				"Namn" : "Karl Johans gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 41,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9543",
+				"EasyPark_nr" : "4044",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.707123461, 56.0402219569 ]
+			},
+			"properties" : {
+				"Namn" : "Gasverksgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 20,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9530",
+				"EasyPark_nr" : "4030",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7057498404, 56.040073378 ]
+			},
+			"properties" : {
+				"Namn" : "Gustav Adolfs gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 8,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9534",
+				"EasyPark_nr" : "4034",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7006566907, 56.0400403972 ]
+			},
+			"properties" : {
+				"Namn" : "Carl Krooks gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 12,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9515",
+				"EasyPark_nr" : "4015",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6986477524, 56.0418382169 ]
+			},
+			"properties" : {
+				"Namn" : "Bollbrogatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 24,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9507",
+				"EasyPark_nr" : "4007",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6919641771, 56.0501014975 ]
+			},
+			"properties" : {
+				"Namn" : "Fågelsångsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 13,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9526",
+				"EasyPark_nr" : "4026",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6863975387, 56.050778846 ]
+			},
+			"properties" : {
+				"Namn" : "Bogseraregatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 15,
+				"Avgbeltid_vardag" : "9:00-22:00",
+				"Avgbeltid_vard_helg" : "(9:00-22:00)",
+				"Avgbeltid_helg" : "9:00-22:00",
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9506",
+				"EasyPark_nr" : "4006",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7015616632, 56.0454795614 ]
+			},
+			"properties" : {
+				"Namn" : "Bergaliden vs",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 14,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9502",
+				"EasyPark_nr" : "4002",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6883284939, 56.0481558426 ]
+			},
+			"properties" : {
+				"Namn" : "Tullaregatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 18,
+				"Avgbeltid_vardag" : "9:00-22:00",
+				"Avgbeltid_vard_helg" : "(9:00-22:00)",
+				"Avgbeltid_helg" : "9:00-22:00",
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : "4075",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6964734405, 56.0501414661 ]
+			},
+			"properties" : {
+				"Namn" : "S:t Clemens gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 9,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9568",
+				"EasyPark_nr" : "4069",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6918405124, 56.0458458089 ]
+			},
+			"properties" : {
+				"Namn" : "Hamntorget",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 62,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "20",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9536",
+				"EasyPark_nr" : "4036",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6983963535, 56.0434929022 ]
+			},
+			"properties" : {
+				"Namn" : "Trädgårdsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 9,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9582",
+				"EasyPark_nr" : "4083",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7052833405, 56.0379418927 ]
+			},
+			"properties" : {
+				"Namn" : "Hantverkaregatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 11,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9538",
+				"EasyPark_nr" : "4038",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6996851844, 56.0424988655 ]
+			},
+			"properties" : {
+				"Namn" : "Carl Krooks gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 30,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9519",
+				"EasyPark_nr" : "4019",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.699534087, 56.0450018341 ]
+			},
+			"properties" : {
+				"Namn" : "Södra Storgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 10,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9577",
+				"EasyPark_nr" : "4078",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6940335859, 56.0483511398 ]
+			},
+			"properties" : {
+				"Namn" : "Norra Storgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 7,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9558",
+				"EasyPark_nr" : "4059",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.688177908, 56.0514418632 ]
+			},
+			"properties" : {
+				"Namn" : "Drottninggatan ös",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 23,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9522",
+				"EasyPark_nr" : "4020",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6993263927, 56.0471751865 ]
+			},
+			"properties" : {
+				"Namn" : "S:t Nicolai",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 180,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9557",
+				"EasyPark_nr" : "4058",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6875603724, 56.0531074724 ]
+			},
+			"properties" : {
+				"Namn" : "Persgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 19,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9561",
+				"EasyPark_nr" : "4062",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7010780644, 56.0487939776 ]
+			},
+			"properties" : {
+				"Namn" : "Bergaliden",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 13,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9503",
+				"EasyPark_nr" : "4003",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7017427744, 56.056288072 ]
+			},
+			"properties" : {
+				"Namn" : "Norrbroplatsen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 17,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9559",
+				"EasyPark_nr" : "4060",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7007747358, 56.0392220946 ]
+			},
+			"properties" : {
+				"Namn" : "Glasbruket",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 142,
+				"Avgbeltid_vardag" : "9:00-20:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9532",
+				"EasyPark_nr" : "4032",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7020660719, 56.0391672124 ]
+			},
+			"properties" : {
+				"Namn" : "Wetterlingsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 11,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9585",
+				"EasyPark_nr" : "4086",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.700737397, 56.0446251308 ]
+			},
+			"properties" : {
+				"Namn" : "Lilla Bergaliden",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 15,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9553",
+				"EasyPark_nr" : "4054",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7074774359, 56.0465602032 ]
+			},
+			"properties" : {
+				"Namn" : "Munkavägen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 8,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9554",
+				"EasyPark_nr" : "4055",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7036017821, 56.0369695772 ]
+			},
+			"properties" : {
+				"Namn" : "Furutorpsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 5,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9596",
+				"EasyPark_nr" : "4096",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7012739026, 56.0416479658 ]
+			},
+			"properties" : {
+				"Namn" : "Södergatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9598",
+				"EasyPark_nr" : "4100",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7068367924, 56.0448061343 ]
+			},
+			"properties" : {
+				"Namn" : "Prins Kristians gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 23,
+				"Avgbeltid_vardag" : "7:30-20:00",
+				"Avgbeltid_vard_helg" : "(7:30-20:00)",
+				"Avgbeltid_helg" : "7:30-20:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9563",
+				"EasyPark_nr" : "4064",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7037143614, 56.0466400003 ]
+			},
+			"properties" : {
+				"Namn" : "Lasarettet",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 5,
+				"Avgbeltid_vardag" : "0:00-24:00",
+				"Avgbeltid_vard_helg" : "(0:00-24:00)",
+				"Avgbeltid_helg" : "0:00-24:00",
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9552",
+				"EasyPark_nr" : "4053",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7025650166, 56.0455326242 ]
+			},
+			"properties" : {
+				"Namn" : "Akuten",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "7:30-20:00",
+				"Avgbeltid_vard_helg" : "(7:30-20:00)",
+				"Avgbeltid_helg" : "7:30-20:00",
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9551",
+				"EasyPark_nr" : "4052",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6876738334, 56.0438583646 ]
+			},
+			"properties" : {
+				"Namn" : "Parapeten",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 35,
+				"Avgbeltid_vardag" : "9:00-20:00",
+				"Avgbeltid_vard_helg" : "(9:00-20:00)",
+				"Avgbeltid_helg" : "9:00-20:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9601",
+				"EasyPark_nr" : "4051",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7064145184, 56.0470713847 ]
+			},
+			"properties" : {
+				"Namn" : "Olympiahuset",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "0:00-24:00",
+				"Avgbeltid_vard_helg" : "(0:00-24:00)",
+				"Avgbeltid_helg" : "0:00-24:00",
+				"Taxa_avgbeltid" : "8",
+				"Taxa_ovrig_tid" : "4",
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7050916759, 56.0450967062 ]
+			},
+			"properties" : {
+				"Namn" : "Akuten",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "0:00-24:00",
+				"Avgbeltid_vard_helg" : "(0:00-24:00)",
+				"Avgbeltid_helg" : "0:00-24:00",
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6902145727, 56.0481930746 ]
+			},
+			"properties" : {
+				"Namn" : "Sundstorgsgaraget -2",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "8:00-18:00",
+				"Avgbeltid_vard_helg" : "(8:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : "5",
+				"Tele_P_nr" : "9511",
+				"EasyPark_nr" : "4102",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7031935638, 56.0380118726 ]
+			},
+			"properties" : {
+				"Namn" : "GA torg",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 85,
+				"Avgbeltid_vardag" : "9:00-20:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : "4027",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7044507329, 56.0389922089 ]
+			},
+			"properties" : {
+				"Namn" : "Hantverkaregatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 19,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9538",
+				"EasyPark_nr" : "4038",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6957132333, 56.0445860924 ]
+			},
+			"properties" : {
+				"Namn" : "Södra Strandgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 13,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6877643739, 56.0488771183 ]
+			},
+			"properties" : {
+				"Namn" : "Stuvaregatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 14,
+				"Avgbeltid_vardag" : "9:00-22:00",
+				"Avgbeltid_vard_helg" : "(9:00-22:00)",
+				"Avgbeltid_helg" : "9:00-22:00",
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9574",
+				"EasyPark_nr" : "4075",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7017738171, 56.0454939842 ]
+			},
+			"properties" : {
+				"Namn" : "Bergaliden (övre maskin)",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 8,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9502",
+				"EasyPark_nr" : "4002",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7052715896, 56.0520017716 ]
+			},
+			"properties" : {
+				"Namn" : "Idrottens hus",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 128,
+				"Avgbeltid_vardag" : "8:00-22:00",
+				"Avgbeltid_vard_helg" : "(8:00-22:00)",
+				"Avgbeltid_helg" : "8:00-22:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9540",
+				"EasyPark_nr" : "4040",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7002094063, 56.0413406447 ]
+			},
+			"properties" : {
+				"Namn" : "Carl Krooks gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 5,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9520",
+				"EasyPark_nr" : "4020",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.691769728, 56.0480040771 ]
+			},
+			"properties" : {
+				"Namn" : "Nedre Långvinkelsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 3,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9594",
+				"EasyPark_nr" : "4094",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6901000789, 56.0454714235 ]
+			},
+			"properties" : {
+				"Namn" : "Hamntorget Västra",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "15",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9537",
+				"EasyPark_nr" : "4037",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6907468876, 56.0503321807 ]
+			},
+			"properties" : {
+				"Namn" : "S:t Jörgens plats",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 16,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9569",
+				"EasyPark_nr" : "4070",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6955656171, 56.0507207936 ]
+			},
+			"properties" : {
+				"Namn" : "Villatomtsvägen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 15,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9589",
+				"EasyPark_nr" : "4090",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.698306307, 56.0457814885 ]
+			},
+			"properties" : {
+				"Namn" : "Södra Storgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 4,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9592",
+				"EasyPark_nr" : "4092",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7024077818, 56.0416397259 ]
+			},
+			"properties" : {
+				"Namn" : "Eneborgsvägen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 14,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9524",
+				"EasyPark_nr" : "4024",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6947799054, 56.0454389538 ]
+			},
+			"properties" : {
+				"Namn" : "Södra Strandgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 12,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9578",
+				"EasyPark_nr" : "4079",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6830750384, 56.0571124595 ]
+			},
+			"properties" : {
+				"Namn" : "Fria bad",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 37,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9525",
+				"EasyPark_nr" : "4025",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7084716237, 56.0572025071 ]
+			},
+			"properties" : {
+				"Namn" : "Fredriksdal",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "9:00-22:00",
+				"Avgbeltid_vard_helg" : "9:00-22:00",
+				"Avgbeltid_helg" : "9:00-22:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6967512306, 56.044157641 ]
+			},
+			"properties" : {
+				"Namn" : "Prästgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 6,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9565",
+				"EasyPark_nr" : "4066",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6867128295, 56.0449761659 ]
+			},
+			"properties" : {
+				"Namn" : "Kustbevakningen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 21,
+				"Avgbeltid_vardag" : "9:00-20:00",
+				"Avgbeltid_vard_helg" : "(9:00-20:00)",
+				"Avgbeltid_helg" : "9:00-20:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9550",
+				"EasyPark_nr" : "4051",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6870127761, 56.0502694035 ]
+			},
+			"properties" : {
+				"Namn" : "Trosshalaregatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 15,
+				"Avgbeltid_vardag" : "9:00-22:00",
+				"Avgbeltid_vard_helg" : "(9:00-22:00)",
+				"Avgbeltid_helg" : "9:00-22:00",
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9506",
+				"EasyPark_nr" : "4006",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7022597371, 56.0375837564 ]
+			},
+			"properties" : {
+				"Namn" : "Carl Krooks gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 20,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6974686588, 56.0421011434 ]
+			},
+			"properties" : {
+				"Namn" : "Järnvägsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 8,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9541",
+				"EasyPark_nr" : "4041",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.701580426, 56.0449052548 ]
+			},
+			"properties" : {
+				"Namn" : "Bergaliden (nedre maskin)",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 30,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : "4002",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.711110402, 56.0506735881 ]
+			},
+			"properties" : {
+				"Namn" : "Olympia",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 100,
+				"Avgbeltid_vardag" : "8:00-17:00",
+				"Avgbeltid_vard_helg" : null,
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : "4103",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6939775123, 56.0488487681 ]
+			},
+			"properties" : {
+				"Namn" : "Nedre Långvinkelsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 4,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9594",
+				"EasyPark_nr" : "4094",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6862495587, 56.0515954309 ]
+			},
+			"properties" : {
+				"Namn" : "Karl Johans gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 19,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9542",
+				"EasyPark_nr" : "4043",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7064194037, 56.0447748355 ]
+			},
+			"properties" : {
+				"Namn" : "Prins Kristians gata",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 14,
+				"Avgbeltid_vardag" : "7:30-20:00",
+				"Avgbeltid_vard_helg" : "(7:30-20:00)",
+				"Avgbeltid_helg" : "7:30-20:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9563",
+				"EasyPark_nr" : "4064",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7038008842, 56.0412711804 ]
+			},
+			"properties" : {
+				"Namn" : "Wieselgrensgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 6,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9587",
+				"EasyPark_nr" : "4088",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6902550991, 56.0466137542 ]
+			},
+			"properties" : {
+				"Namn" : "Kungsgatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 46,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "20",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9549",
+				"EasyPark_nr" : "4050",
+				"Status" : "bortpl"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7012051145, 56.0481239907 ]
+			},
+			"properties" : {
+				"Namn" : "Bergaliden",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 8,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9502",
+				"EasyPark_nr" : "4002",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7052462723, 56.0363607262 ]
+			},
+			"properties" : {
+				"Namn" : "Södergatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 22,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9575",
+				"EasyPark_nr" : "4076",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7035448377, 56.0400925141 ]
+			},
+			"properties" : {
+				"Namn" : "Hantverkargatan",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 6,
+				"Avgbeltid_vardag" : "9:00-18:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9538",
+				"EasyPark_nr" : "4038",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7023570724, 56.0378275182 ]
+			},
+			"properties" : {
+				"Namn" : "GA torg",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "9:00-20:00",
+				"Avgbeltid_vard_helg" : "(9:00-15:00)",
+				"Avgbeltid_helg" : null,
+				"Taxa_avgbeltid" : "10",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : "9527",
+				"EasyPark_nr" : "4027",
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7080219161, 56.0580603665 ]
+			},
+			"properties" : {
+				"Namn" : "Fredriksdal",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "9:00-22:00",
+				"Avgbeltid_vard_helg" : "9:00-22:00",
+				"Avgbeltid_helg" : "9:00-22:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7088051223, 56.0495559531 ]
+			},
+			"properties" : {
+				"Namn" : "Olympiaparkeringen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "08:00-22:00",
+				"Avgbeltid_vard_helg" : "08:00-22:00",
+				"Avgbeltid_helg" : "08:00-22:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.7089432553, 56.0494218865 ]
+			},
+			"properties" : {
+				"Namn" : "Olympiaparkeringen",
+				"Agartyp" : "hbg",
+				"Antal_plats" : null,
+				"Avgbeltid_vardag" : "08:00-22:00",
+				"Avgbeltid_vard_helg" : "08:00-22:00",
+				"Avgbeltid_helg" : "08:00-22:00",
+				"Taxa_avgbeltid" : "5",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "aktiv"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 12.6930504983, 56.0446659978 ]
+			},
+			"properties" : {
+				"Namn" : "Kungstorget",
+				"Agartyp" : "hbg",
+				"Antal_plats" : 8,
+				"Avgbeltid_vardag" : "0-24",
+				"Avgbeltid_vard_helg" : "0-24",
+				"Avgbeltid_helg" : "0-24",
+				"Taxa_avgbeltid" : "20",
+				"Taxa_ovrig_tid" : null,
+				"Tele_P_nr" : null,
+				"EasyPark_nr" : null,
+				"Status" : "aktiv"
+			}
+		}
+	]
+}

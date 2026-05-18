@@ -1,0 +1,159 @@
+import { useState, useCallback } from 'react'
+import { useLocalStorage } from '../hooks/useLocalStorage'
+import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet'
+import MarkerClusterGroup from 'react-leaflet-cluster'
+import L from 'leaflet'
+
+const HBG_CENTER = [56.046, 12.694]
+const ZOOM = 14
+
+const LAYERS = {
+  light:     { label: 'Ljus',     url: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>' },
+  osm:       { label: 'Gata',     url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' },
+  satellite: { label: 'Satellit', url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', attribution: '&copy; Esri' },
+  dark:      { label: 'Mörk',     url: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>' },
+}
+
+const LAYER_ICONS = {
+  light: <svg viewBox="0 0 20 20" fill="none" width="20" height="20"><circle cx="10" cy="10" r="4" fill="currentColor"/><path d="M10 2v2M10 16v2M2 10h2M16 10h2M4.22 4.22l1.42 1.42M14.36 14.36l1.42 1.42M4.22 15.78l1.42-1.42M14.36 5.64l1.42-1.42" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/></svg>,
+  osm: <svg viewBox="0 0 20 20" fill="none" width="20" height="20"><path d="M3 7l7-4 7 4v9l-7 4-7-4V7z" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/><path d="M10 3v14M3 7l7 4 7-4" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"/></svg>,
+  satellite: <svg viewBox="0 0 20 20" fill="none" width="20" height="20"><circle cx="10" cy="10" r="7" stroke="currentColor" strokeWidth="1.5"/><ellipse cx="10" cy="10" rx="4" ry="7" stroke="currentColor" strokeWidth="1.5"/><path d="M3 10h14" stroke="currentColor" strokeWidth="1.5"/></svg>,
+  dark: <svg viewBox="0 0 20 20" fill="none" width="20" height="20"><path d="M17 12A7 7 0 1 1 8 3a5 5 0 0 0 9 9z" fill="currentColor"/></svg>,
+}
+
+function featureKey(f) {
+  const [lng, lat] = f.geometry.coordinates
+  return `${lat},${lng}`
+}
+
+function createPinIcon(isSelected, dark) {
+  const fill = isSelected ? '#e63946' : (dark ? '#4fc3f7' : '#0f4c75')
+  return L.divIcon({
+    className: '',
+    html: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="40" viewBox="0 0 32 40">
+      <path d="M16 0C7.163 0 0 7.163 0 16c0 10 16 24 16 24S32 26 32 16C32 7.163 24.837 0 16 0z" fill="${fill}" stroke="white" stroke-width="1.5"/>
+      <text x="16" y="21" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">P</text>
+    </svg>`,
+    iconSize: [32, 40],
+    iconAnchor: [16, 40],
+  })
+}
+
+const BTN = {
+  width: 44, height: 44,
+  borderRadius: 12,
+  border: 'none',
+  background: '#fff',
+  boxShadow: '0 2px 12px rgba(0,0,0,0.22)',
+  cursor: 'pointer',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  color: '#333',
+  WebkitTapHighlightColor: 'transparent',
+}
+
+function MapButtons({ activeLayer, layerOpen, onLayerToggle }) {
+  const map = useMap()
+
+  const handleGps = useCallback(() => {
+    if (!navigator.geolocation) return
+    navigator.geolocation.getCurrentPosition(
+      ({ coords }) => map.flyTo([coords.latitude, coords.longitude], 16, { duration: 1.2 }),
+      () => {},
+      { maximumAge: 30000, timeout: 10000 },
+    )
+  }, [map])
+
+  return (
+    <div style={{ position: 'absolute', bottom: 28, right: 14, zIndex: 800, display: 'flex', flexDirection: 'column', gap: 10 }}>
+      <button
+        onClick={onLayerToggle}
+        style={{ ...BTN, background: layerOpen ? '#0f4c75' : '#fff', color: layerOpen ? '#fff' : '#333' }}
+        aria-label="Kartvy"
+      >
+        {LAYER_ICONS[activeLayer]}
+      </button>
+      <button onClick={handleGps} style={BTN} aria-label="Hitta min position">
+        <svg viewBox="0 0 20 20" fill="none" width="20" height="20">
+          <circle cx="10" cy="10" r="3" fill="currentColor"/>
+          <circle cx="10" cy="10" r="7" stroke="currentColor" strokeWidth="1.5"/>
+          <path d="M10 1v3M10 16v3M1 10h3M16 10h3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+        </svg>
+      </button>
+    </div>
+  )
+}
+
+function LayerSheet({ activeLayer, onChange, onClose }) {
+  return (
+    <>
+      <div onClick={onClose} style={{ position: 'fixed', inset: 0, zIndex: 900 }} />
+      <div style={{
+        position: 'fixed', bottom: 0, left: 0, right: 0, zIndex: 1000,
+        background: '#fff', borderRadius: '20px 20px 0 0',
+        padding: '12px 20px 44px',
+        boxShadow: '0 -4px 24px rgba(0,0,0,0.15)',
+        animation: 'slideUp 0.25s ease-out',
+      }}>
+        <div style={{ width: 40, height: 4, background: '#ddd', borderRadius: 2, margin: '0 auto 20px' }} />
+        <p style={{ fontSize: 11, fontWeight: 600, textTransform: 'uppercase', letterSpacing: '0.08em', color: '#999', marginBottom: 14 }}>Kartvy</p>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
+          {Object.entries(LAYERS).map(([id, layer]) => (
+            <button
+              key={id}
+              onClick={() => onChange(id)}
+              style={{
+                display: 'flex', alignItems: 'center', gap: 10,
+                padding: '14px 16px', borderRadius: 14,
+                border: '2px solid',
+                borderColor: activeLayer === id ? '#0f4c75' : '#e8e8e8',
+                background: activeLayer === id ? '#e8f0fe' : '#fafafa',
+                color: activeLayer === id ? '#0f4c75' : '#333',
+                cursor: 'pointer', fontSize: 15, fontWeight: activeLayer === id ? 700 : 400,
+                WebkitTapHighlightColor: 'transparent',
+              }}
+            >
+              {LAYER_ICONS[id]}
+              {layer.label}
+            </button>
+          ))}
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default function ParkingMap({ features, onSelect, selected }) {
+  const [activeLayer, setActiveLayer] = useLocalStorage('park-hbg:layer', 'light')
+  const [layerOpen, setLayerOpen] = useState(false)
+  const selectedKey = selected ? featureKey(selected) : null
+  const layer = LAYERS[activeLayer]
+
+  const handleLayerChange = (id) => {
+    setActiveLayer(id)
+    setLayerOpen(false)
+  }
+
+  return (
+    <MapContainer center={HBG_CENTER} zoom={ZOOM} style={{ height: '100%', width: '100%' }} zoomControl={false}>
+      <TileLayer key={activeLayer} url={layer.url} attribution={layer.attribution} maxZoom={19} />
+      <MarkerClusterGroup chunkedLoading showCoverageOnHover={false} maxClusterRadius={50} disableClusteringAtZoom={19}>
+        {features.map(feature => {
+          const [lng, lat] = feature.geometry.coordinates
+          const key = featureKey(feature)
+          return (
+            <Marker
+              key={key}
+              position={[lat, lng]}
+              icon={createPinIcon(key === selectedKey, activeLayer === 'dark')}
+              eventHandlers={{ click: () => onSelect(feature) }}
+            />
+          )
+        })}
+      </MarkerClusterGroup>
+      <MapButtons activeLayer={activeLayer} layerOpen={layerOpen} onLayerToggle={() => setLayerOpen(o => !o)} />
+      {layerOpen && <LayerSheet activeLayer={activeLayer} onChange={handleLayerChange} onClose={() => setLayerOpen(false)} />}
+    </MapContainer>
+  )
+}

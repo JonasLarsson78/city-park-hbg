@@ -24,6 +24,18 @@
     "kommentar": "Inomhusgarage kopplat till Clarion Hotel Sea U, Kungsgatan 1–5. Pris ca 10–11 kr/20 min (ca 30–33 kr/h), 307 kr/24h. Betalning via Aimo Park eller EasyPark/Parkster. Elbilsladdning finns. Maxhöjd: 2,1 m."
   },
   {
+    "namn": "SöDER parkeringshus",
+    "lat": 56.039812,
+    "lng": 12.701426,
+    "pris": "20",
+    "platser": 240,
+    "tider_vardag": "Dygnet runt",
+    "tider_helg": "Dygnet runt",
+    "telep": null,
+    "easypark": 5244,
+    "kommentar": "2 plan, APNR-system (kamera läser regnr vid in/utfart). Maxtaxa 250 kr/dygn. Betalning via automat, Autopay.io, app (Parkman, kod 5244) eller faktura. Elbilsladdning via Mer. Maxhöjd: 2,10 m. Handikappplatser finns."
+  },
+  {
     "namn": "Senderödsvägen",
     "lat": 56.076460,
     "lng": 12.696671,

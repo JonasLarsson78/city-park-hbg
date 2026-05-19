@@ -25,7 +25,8 @@ export default function ParkingSheet({ feature, onClose }) {
   if (!feature) return null
 
   const p = feature.properties
-  const avgift = p.Taxa_avgbeltid && !['fri','gr_oreg'].includes(p.Taxa_avgbeltid) ? `${p.Taxa_avgbeltid} kr/tim` : null
+  const avgift = p.Taxa_avgbeltid === '0' ? 'Gratis'
+    : p.Taxa_avgbeltid && !['fri','gr_oreg'].includes(p.Taxa_avgbeltid) ? `${p.Taxa_avgbeltid} kr/tim` : null
   const avgiftOvrig = p.Taxa_ovrig_tid ? `${p.Taxa_ovrig_tid} kr/tim (övrig tid)` : null
   const typeLabel = p._type === 'pr' ? 'Park & Ride' : p._type === 'priv' ? 'Privat parkering' : p._type === 'stad' ? 'Kommunal parkering' : null
   const platstyp = p.Parkeringsplatstyp === 'gatum_P' ? 'Gatumarkerad parkering' : p.Parkeringsplatstyp === 'kvart_P' ? 'Kvarters-/däcksparkering' : null

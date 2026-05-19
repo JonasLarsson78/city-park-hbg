@@ -35,8 +35,8 @@ function polygonCentroid(coords) {
 }
 
 const PRICE_COLORS = {
-  light: { '5': '#2a9d5c', '10': '#e8a020', '15': '#e07020', '20': '#c0392b', '30': '#7b1fa2', 'fri': '#0097a7', 'gr_oreg': '#888888', default: '#0f4c75' },
-  dark:  { '5': '#4ade80', '10': '#fbbf24', '15': '#fb923c', '20': '#f87171', '30': '#ce93d8', 'fri': '#4dd0e1', 'gr_oreg': '#aaaaaa', default: '#4fc3f7' },
+  light: { '5': '#2a9d5c', '10': '#e8a020', '15': '#e07020', '20': '#c0392b', '30': '#7b1fa2', 'fri': '#0097a7', '0': '#0097a7', 'gr_oreg': '#888888', default: '#0f4c75' },
+  dark:  { '5': '#4ade80', '10': '#fbbf24', '15': '#fb923c', '20': '#f87171', '30': '#ce93d8', 'fri': '#4dd0e1', '0': '#4dd0e1', 'gr_oreg': '#aaaaaa', default: '#4fc3f7' },
 }
 
 function getPriceColor(price, dark) {

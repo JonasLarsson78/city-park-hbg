@@ -66,6 +66,11 @@ export default function ParkingSheet({ feature, onClose }) {
               <AppRow logo={<EasyParkLogo />} number={p.EasyPark_nr} />
             </div>
           )}
+          {p.Kom_ext && (
+            <div className={styles.section}>
+              <p style={{ fontSize: 13, color: '#555', lineHeight: 1.5, margin: 0 }}>{p.Kom_ext}</p>
+            </div>
+          )}
         </div>
       </div>
     </>

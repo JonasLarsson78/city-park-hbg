@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 import { useLocalStorage } from '../hooks/useLocalStorage'
-import { MapContainer, TileLayer, Marker, useMap } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, GeoJSON, useMap, useMapEvents } from 'react-leaflet'
 import MarkerClusterGroup from 'react-leaflet-cluster'
 import L from 'leaflet'
 
@@ -26,8 +26,18 @@ function featureKey(f) {
   return `${lat},${lng}`
 }
 
-function createPinIcon(isSelected, dark) {
-  const fill = isSelected ? '#e63946' : (dark ? '#4fc3f7' : '#0f4c75')
+const PRICE_COLORS = {
+  light: { '5': '#2a9d5c', '10': '#e8a020', '15': '#e07020', '20': '#c0392b', '30': '#7b1fa2', 'gr_oreg': '#888888', default: '#0f4c75' },
+  dark:  { '5': '#4ade80', '10': '#fbbf24', '15': '#fb923c', '20': '#f87171', '30': '#ce93d8', 'gr_oreg': '#aaaaaa', default: '#4fc3f7' },
+}
+
+function getPriceColor(price, dark) {
+  const palette = dark ? PRICE_COLORS.dark : PRICE_COLORS.light
+  return palette[String(price)] ?? palette.default
+}
+
+function createPinIcon(isSelected, dark, price) {
+  const fill = isSelected ? '#e63946' : getPriceColor(price, dark)
   return L.divIcon({
     className: '',
     html: `<svg xmlns="http://www.w3.org/2000/svg" width="32" height="40" viewBox="0 0 32 40">
@@ -37,6 +47,47 @@ function createPinIcon(isSelected, dark) {
     iconSize: [32, 40],
     iconAnchor: [16, 40],
   })
+}
+
+
+function MouseCoords({ dark }) {
+  const [pos, setPos] = useState(null)
+  const [copied, setCopied] = useState(false)
+
+  useMapEvents({
+    mousemove: e => setPos(e.latlng),
+    mouseout:  () => setPos(null),
+  })
+
+  if (!pos) return null
+
+  const text = `${pos.lat.toFixed(6)}, ${pos.lng.toFixed(6)}`
+
+  const copy = () => {
+    navigator.clipboard.writeText(text).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 1500)
+    })
+  }
+
+  return (
+    <div
+      onClick={copy}
+      title="Klicka för att kopiera"
+      style={{
+        position: 'absolute', bottom: 28, left: '50%', transform: 'translateX(-50%)',
+        zIndex: 800,
+        background: dark ? 'rgba(20,20,20,0.82)' : 'rgba(255,255,255,0.88)',
+        color: dark ? '#e0e0e0' : '#333',
+        borderRadius: 8, padding: '5px 12px',
+        fontSize: 12, fontFamily: 'monospace', fontWeight: 600,
+        boxShadow: '0 2px 8px rgba(0,0,0,0.18)',
+        cursor: 'copy', userSelect: 'none', whiteSpace: 'nowrap',
+      }}
+    >
+      {copied ? 'Kopierat!' : text}
+    </div>
+  )
 }
 
 const BTN = {
@@ -124,7 +175,15 @@ function LayerSheet({ activeLayer, onChange, onClose }) {
   )
 }
 
-export default function ParkingMap({ features, onSelect, selected }) {
+function makeZoneStyle(dark) {
+  return feature => {
+    const price = feature.properties?.Taxa_avgbeltid
+    const color = getPriceColor(price, dark)
+    return { fillColor: color, fillOpacity: 0.55, color, weight: 0, opacity: 0 }
+  }
+}
+
+export default function ParkingMap({ features, zones, onSelect, selected }) {
   const [activeLayer, setActiveLayer] = useLocalStorage('park-hbg:layer', 'light')
   const [layerOpen, setLayerOpen] = useState(false)
   const selectedKey = selected ? featureKey(selected) : null
@@ -138,20 +197,29 @@ export default function ParkingMap({ features, onSelect, selected }) {
   return (
     <MapContainer center={HBG_CENTER} zoom={ZOOM} style={{ height: '100%', width: '100%' }} zoomControl={false}>
       <TileLayer key={activeLayer} url={layer.url} attribution={layer.attribution} maxZoom={19} />
+      {zones.length > 0 && (
+        <GeoJSON
+          key={`${zones.length}-${activeLayer}`}
+          data={{ type: 'FeatureCollection', features: zones.filter(f => f.geometry?.type === 'Polygon' || f.geometry?.type === 'MultiPolygon') }}
+          style={makeZoneStyle(activeLayer === 'dark')}
+        />
+      )}
       <MarkerClusterGroup chunkedLoading showCoverageOnHover={false} maxClusterRadius={50} disableClusteringAtZoom={19}>
         {features.map(feature => {
           const [lng, lat] = feature.geometry.coordinates
           const key = featureKey(feature)
+          const price = feature.properties?.Taxa_avgbeltid
           return (
             <Marker
               key={key}
               position={[lat, lng]}
-              icon={createPinIcon(key === selectedKey, activeLayer === 'dark')}
+              icon={createPinIcon(key === selectedKey, activeLayer === 'dark', price)}
               eventHandlers={{ click: () => onSelect(feature) }}
             />
           )
         })}
       </MarkerClusterGroup>
+      <MouseCoords dark={activeLayer === 'dark'} />
       <MapButtons activeLayer={activeLayer} layerOpen={layerOpen} onLayerToggle={() => setLayerOpen(o => !o)} />
       {layerOpen && <LayerSheet activeLayer={activeLayer} onChange={handleLayerChange} onClose={() => setLayerOpen(false)} />}
     </MapContainer>

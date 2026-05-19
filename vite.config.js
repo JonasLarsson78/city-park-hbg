@@ -10,6 +10,11 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: path => '/sbf/transport/parkeringsautomater/parkeringsautomater.geojson',
       },
+      '/api/parking-zones': {
+        target: 'https://kartportal.helsingborg.se',
+        changeOrigin: true,
+        rewrite: () => '/server1/rest/services/tema_samlingstjanster/tema_parkering_publik/MapServer/14/query?where=1%3D1&outFields=*&outSR=4326&f=geojson',
+      },
     },
   },
 })

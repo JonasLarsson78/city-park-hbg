@@ -1,0 +1,26 @@
+[
+  {
+    "namn": "Glashuset parkeringshus",
+    "lat": 56.046920,
+    "lng": 12.702570,
+    "pris": "10",
+    "platser": 337,
+    "tider_vardag": "Alla dagar",
+    "tider_helg": "Alla dagar",
+    "telep": null,
+    "easypark": 40420,
+    "kommentar": "Ingång via Charlotte Yhlens gata. Kamera läser av regnr vid infart – ingen biljett. Betala med bank-/bensinkort i automaten i trapphuset vid utfart. Ej möjligt att betala via app (EasyPark, Parkster m.fl.)."
+  },
+{
+    "namn": "Sea U parkeringshus",
+    "lat": 56.046331,
+    "lng": 12.689397,
+    "pris": "30",
+    "platser": 150,
+    "tider_vardag": "06:00-22:00",
+    "tider_helg": "06:00-22:00",
+    "telep": null,
+    "easypark": 8800,
+    "kommentar": "Inomhusgarage kopplat till Clarion Hotel Sea U, Kungsgatan 1–5. Pris ca 10–11 kr/20 min (ca 30–33 kr/h), 307 kr/24h. Betalning via Aimo Park eller EasyPark/Parkster. Elbilsladdning finns. Maxhöjd: 2,1 m."
+  }
+]

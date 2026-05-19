@@ -8,8 +8,27 @@ import { useLocalStorage } from './hooks/useLocalStorage'
 
 const DEFAULT_FILTERS = { prices: [], apps: [] }
 
+function deduplicateFeatures(features) {
+  const kept = []
+  for (const f of features) {
+    const [lng, lat] = f.geometry.coordinates
+    const name = f.properties.Namn
+    const price = f.properties.Taxa_avgbeltid
+    const isDupe = kept.some(k => {
+      if (k.properties.Namn !== name || k.properties.Taxa_avgbeltid !== price) return false
+      const [klng, klat] = k.geometry.coordinates
+      const dlat = Math.abs(lat - klat) * 111320
+      const dlng = Math.abs(lng - klng) * 111320 * Math.cos(lat * Math.PI / 180)
+      return Math.sqrt(dlat * dlat + dlng * dlng) < 50
+    })
+    if (!isDupe) kept.push(f)
+  }
+  return kept
+}
+
 export default function App() {
   const [allFeatures, setAllFeatures] = useState([])
+  const [zones, setZones] = useState([])
   const [selected, setSelected] = useState(null)
   const [query, setQuery] = useState('')
   const [filters, setFilters] = useLocalStorage('park-hbg:filters', DEFAULT_FILTERS)
@@ -18,13 +37,38 @@ export default function App() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch('/api/parking')
+    const spotsPromise = fetch('/api/parking')
       .then(r => { if (!r.ok) throw new Error(); return r.json() })
       .catch(() => fetch('/parkeringsautomater.geojson').then(r => r.json()))
-      .then(data => {
-        setAllFeatures(data.features.filter(f => f.properties.Status === 'aktiv'))
-        setLoading(false)
+      .then(async data => {
+        const active = deduplicateFeatures(data.features.filter(f => f.properties.Status === 'aktiv'))
+        const custom = await fetch('/egna-parkeringar.json').then(r => r.json()).catch(() => [])
+        const customFeatures = custom.map(p => ({
+          type: 'Feature',
+          geometry: { type: 'Point', coordinates: [p.lng, p.lat] },
+          properties: {
+            Namn: p.namn,
+            Taxa_avgbeltid: String(p.pris ?? ''),
+            Antal_plats: p.platser ?? null,
+            Avgbeltid_vardag: p.tider_vardag ?? null,
+            Avgbeltid_helg: p.tider_helg ?? null,
+            Tele_P_nr: p.telep ?? null,
+            EasyPark_nr: p.easypark ?? null,
+            Kom_ext: p.kommentar ?? null,
+            Status: 'aktiv',
+            _custom: true,
+          },
+        }))
+        setAllFeatures([...active, ...customFeatures])
       })
+
+    const zonesPromise = fetch('/parkeringszoner.geojson')
+      .then(r => r.json())
+      .then(data => { if (data?.features) setZones(data.features) })
+      .catch(() => {})
+
+    Promise.all([spotsPromise, zonesPromise])
+      .then(() => setLoading(false))
       .catch(e => { setError(e.message); setLoading(false) })
   }, [])
 
@@ -69,7 +113,7 @@ export default function App() {
 
   return (
     <div style={{ height: '100%', position: 'relative' }}>
-      <ParkingMap features={filteredFeatures} onSelect={handleSelect} selected={selected} />
+      <ParkingMap features={filteredFeatures} zones={zones} onSelect={handleSelect} selected={selected} />
       <SearchBar
         value={query}
         onChange={setQuery}

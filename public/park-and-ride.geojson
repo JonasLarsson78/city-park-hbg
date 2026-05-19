@@ -1,1 +1,320 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","id":443,"geometry":{"type":"Point","coordinates":[12.70255000854165,56.058017150623975]},"properties":{"OBJECTID":443,"Parkeringsplatstyp":"kvart_P","Namn":"Stattena","Agartyp":"priv","Antal_plats":95,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":1891,"geometry":{"type":"Point","coordinates":[12.782970484031361,55.965447098861937]},"properties":{"OBJECTID":1891,"Parkeringsplatstyp":"kvart_P","Namn":"Rydebäck station Västra","Agartyp":"hbg","Antal_plats":39,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":1905,"geometry":{"type":"Point","coordinates":[12.863032770379125,55.963430836952966]},"properties":{"OBJECTID":1905,"Parkeringsplatstyp":"kvart_P","Namn":"Vallåkra station öst","Agartyp":"hbg","Antal_plats":10,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":1906,"geometry":{"type":"Point","coordinates":[12.861884851617782,55.963620493992501]},"properties":{"OBJECTID":1906,"Parkeringsplatstyp":"kvart_P","Namn":"Vallåkra station väst","Agartyp":"hbg","Antal_plats":9,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":1922,"geometry":{"type":"Point","coordinates":[12.805067237538061,55.99055392681359]},"properties":{"OBJECTID":1922,"Parkeringsplatstyp":"gatum_P","Namn":"Gantofta station","Agartyp":"hbg","Antal_plats":14,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":2137,"geometry":{"type":"Point","coordinates":[12.81710963916575,56.029361258530074]},"properties":{"OBJECTID":2137,"Parkeringsplatstyp":"kvart_P","Namn":"Påarp station","Agartyp":"hbg","Antal_plats":17,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":2154,"geometry":{"type":"Point","coordinates":[12.872856793491732,56.055729652049415]},"properties":{"OBJECTID":2154,"Parkeringsplatstyp":"kvart_P","Namn":"Mörarp station västra","Agartyp":"hbg","Antal_plats":6,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":2314,"geometry":{"type":"Point","coordinates":[12.873863409836387,56.055541954843648]},"properties":{"OBJECTID":2314,"Parkeringsplatstyp":"kvart_P","Namn":"Mörarp station","Agartyp":"hbg","Antal_plats":20,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":2494,"geometry":{"type":"Point","coordinates":[12.746587730170152,56.105884679911433]},"properties":{"OBJECTID":2494,"Parkeringsplatstyp":"kvart_P","Namn":"Ödåkra station Östra","Agartyp":"hbg","Antal_plats":25,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":2504,"geometry":{"type":"Point","coordinates":[12.744544971798986,56.104631977772847]},"properties":{"OBJECTID":2504,"Parkeringsplatstyp":"kvart_P","Namn":"Ödåkra station västra","Agartyp":"hbg","Antal_plats":11,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":16815,"geometry":{"type":"Point","coordinates":[12.712373340501484,56.076120413355206]},"properties":{"OBJECTID":16815,"Parkeringsplatstyp":"gatum_P","Namn":"Maria station Södra","Agartyp":"hbg","Antal_plats":100,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":17215,"geometry":{"type":"Point","coordinates":[12.726029921410387,56.022954028415825]},"properties":{"OBJECTID":17215,"Parkeringsplatstyp":"gatum_P","Namn":"Ramlösa station västra","Agartyp":"hbg","Antal_plats":53,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":17216,"geometry":{"type":"Point","coordinates":[12.727183854492566,56.024518022949223]},"properties":{"OBJECTID":17216,"Parkeringsplatstyp":"gatum_P","Namn":"Ramlösa station Nordöstra","Agartyp":"hbg","Antal_plats":95,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":17217,"geometry":{"type":"Point","coordinates":[12.729342441425869,56.022927088252914]},"properties":{"OBJECTID":17217,"Parkeringsplatstyp":"gatum_P","Namn":"Ramlösa station sydöstra","Agartyp":"hbg","Antal_plats":46,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":20402,"geometry":{"type":"Point","coordinates":[12.778996897545547,56.143279344021479]},"properties":{"OBJECTID":20402,"Parkeringsplatstyp":"gatum_P","Namn":"Kattarp station","Agartyp":"hbg","Antal_plats":8,"Status":"oppen","Kom_ext":null,"H22":null}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 443,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.70255000854165,
+          56.058017150623975
+        ]
+      },
+      "properties": {
+        "OBJECTID": 443,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Stattena",
+        "Agartyp": "priv",
+        "Antal_plats": 95,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1891,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.782970484031361,
+          55.965447098861937
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1891,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Rydebäck station Västra",
+        "Agartyp": "hbg",
+        "Antal_plats": 39,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1905,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.863032770379125,
+          55.963430836952966
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1905,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Vallåkra station öst",
+        "Agartyp": "hbg",
+        "Antal_plats": 10,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1906,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.861884851617782,
+          55.963620493992501
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1906,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Vallåkra station väst",
+        "Agartyp": "hbg",
+        "Antal_plats": 9,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1922,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.805067237538061,
+          55.99055392681359
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1922,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Gantofta station",
+        "Agartyp": "hbg",
+        "Antal_plats": 14,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.81710963916575,
+          56.029361258530074
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2137,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Påarp station",
+        "Agartyp": "hbg",
+        "Antal_plats": 17,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2154,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.872856793491732,
+          56.055729652049415
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2154,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Mörarp station västra",
+        "Agartyp": "hbg",
+        "Antal_plats": 6,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2314,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.873863409836387,
+          56.055541954843648
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2314,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Mörarp station",
+        "Agartyp": "hbg",
+        "Antal_plats": 20,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2494,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.746587730170152,
+          56.105884679911433
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2494,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Ödåkra station Östra",
+        "Agartyp": "hbg",
+        "Antal_plats": 25,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2504,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.744544971798986,
+          56.104631977772847
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2504,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Ödåkra station västra",
+        "Agartyp": "hbg",
+        "Antal_plats": 11,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16815,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.712373340501484,
+          56.076120413355206
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16815,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Maria station Södra",
+        "Agartyp": "hbg",
+        "Antal_plats": 100,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17215,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.726029921410387,
+          56.022954028415825
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17215,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Ramlösa station västra",
+        "Agartyp": "hbg",
+        "Antal_plats": 53,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17216,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.727183854492566,
+          56.024518022949223
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17216,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Ramlösa station Nordöstra",
+        "Agartyp": "hbg",
+        "Antal_plats": 95,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17217,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.729342441425869,
+          56.022927088252914
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17217,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Ramlösa station sydöstra",
+        "Agartyp": "hbg",
+        "Antal_plats": 46,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.778996897545547,
+          56.143279344021479
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20402,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Kattarp station",
+        "Agartyp": "hbg",
+        "Antal_plats": 8,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    }
+  ]
+}

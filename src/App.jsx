@@ -64,16 +64,30 @@ export default function App() {
         setAllFeatures([...active, ...customFeatures])
       })
 
-    const zonesPromise = fetch('/parkeringszoner.geojson')
-      .then(r => r.json())
-      .then(data => { if (data?.features) setZones(data.features) })
-      .catch(() => {})
+    const zonesPromise = Promise.all([
+      fetch('/parkeringszoner.geojson').then(r => r.json()).catch(() => ({ features: [] })),
+      fetch('/ignorera-parkeringar.json').then(r => { if (!r.ok) throw new Error(); return r.json() }).catch(() => ({ objectids: [], namn: [] })),
+    ]).then(([data, ignore]) => {
+      const ignoredIds = new Set(ignore.objectids)
+      const ignoredNames = new Set(ignore.namn)
+      const filtered = data.features?.filter(f =>
+        !ignoredIds.has(f.properties.OBJECTID) &&
+        !ignoredNames.has(f.properties.Omradesnamn)
+      ) ?? []
+      setZones(filtered)
+    }).catch(() => {})
 
     const extraPromise = Promise.all([
       fetch('/storr-parkeringar-stad.geojson').then(r => r.json()).catch(() => ({ features: [] })),
       fetch('/storr-parkeringar-privat.geojson').then(r => r.json()).catch(() => ({ features: [] })),
       fetch('/park-and-ride.geojson').then(r => r.json()).catch(() => ({ features: [] })),
-    ]).then(([stad, priv, pr]) => {
+      fetch('/ignorera-parkeringar.json').then(r => { if (!r.ok) throw new Error(); return r.json() }).catch(() => ({ objectids: [], namn: [] })),
+    ]).then(([stad, priv, pr, ignore]) => {
+      const ignoredIds = new Set(ignore.objectids)
+      const ignoredNames = new Set(ignore.namn)
+      const isIgnored = f =>
+        ignoredIds.has(f.properties.OBJECTID) ||
+        ignoredNames.has(f.properties.Namn)
       const toFeature = (f, type) => ({
         ...f,
         properties: {
@@ -87,9 +101,9 @@ export default function App() {
         },
       })
       setExtraFeatures([
-        ...stad.features.filter(f => f.properties.Status === 'oppen').map(f => toFeature(f, 'stad')),
-        ...priv.features.filter(f => f.properties.Status === 'oppen').map(f => toFeature(f, 'priv')),
-        ...pr.features.filter(f => f.properties.Status === 'oppen').map(f => toFeature(f, 'pr')),
+        ...stad.features.filter(f => f.properties.Status === 'oppen' && !isIgnored(f)).map(f => toFeature(f, 'stad')),
+        ...priv.features.filter(f => f.properties.Status === 'oppen' && !isIgnored(f)).map(f => toFeature(f, 'priv')),
+        ...pr.features.filter(f => f.properties.Status === 'oppen' && !isIgnored(f)).map(f => toFeature(f, 'pr')),
       ])
     })
 

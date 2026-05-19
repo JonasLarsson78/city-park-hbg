@@ -1,1 +1,841 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","id":1270,"geometry":{"type":"Point","coordinates":[12.7136164886491,56.037672651878502]},"properties":{"OBJECTID":1270,"Parkeringsplatstyp":"gatum_P","Namn":"Tegelpannan","Agartyp":"hbg","Antal_plats":99,"Tillaten_klass":null,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":1786,"geometry":{"type":"Point","coordinates":[12.725066939657419,56.036797503802383]},"properties":{"OBJECTID":1786,"Parkeringsplatstyp":"kvart_P","Namn":"Sundspärlan","Agartyp":"hbg","Antal_plats":170,"Tillaten_klass":null,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":2011,"geometry":{"type":"Point","coordinates":[12.784252967179231,55.965863942867003]},"properties":{"OBJECTID":2011,"Parkeringsplatstyp":"kvart_P","Namn":"Rydebäck station östra","Agartyp":"hbg","Antal_plats":18,"Tillaten_klass":null,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":2206,"geometry":{"type":"Point","coordinates":[12.795232422025157,56.016279079211458]},"properties":{"OBJECTID":2206,"Parkeringsplatstyp":"kvart_P","Namn":"Bårslöv P-plats samåkning","Agartyp":"hbg","Antal_plats":16,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"P- Samåkning","H22":null}},{"type":"Feature","id":2445,"geometry":{"type":"Point","coordinates":[12.694462112430296,56.111352571207227]},"properties":{"OBJECTID":2445,"Parkeringsplatstyp":"kvart_P","Namn":"Allerums idrottsplats","Agartyp":"hbg","Antal_plats":23,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Allerums idrottsplats","H22":null}},{"type":"Feature","id":2490,"geometry":{"type":"Point","coordinates":[12.753092528197207,56.098700066527918]},"properties":{"OBJECTID":2490,"Parkeringsplatstyp":"kvart_P","Namn":"Toftavallen","Agartyp":"hbg","Antal_plats":30,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Toftavallen","H22":null}},{"type":"Feature","id":2650,"geometry":{"type":"Point","coordinates":[12.664442265627342,56.079760251434557]},"properties":{"OBJECTID":2650,"Parkeringsplatstyp":"kvart_P","Namn":null,"Agartyp":"hbg","Antal_plats":26,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Tinkarpsbacken","H22":null}},{"type":"Feature","id":2651,"geometry":{"type":"Point","coordinates":[12.664019351807765,56.085507519014527]},"properties":{"OBJECTID":2651,"Parkeringsplatstyp":"kvart_P","Namn":"Sofiero Huvudentré","Agartyp":"hbg","Antal_plats":150,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Vid större evenemang kan det tillkomma en avgift.","H22":null}},{"type":"Feature","id":2652,"geometry":{"type":"Point","coordinates":[12.661409633273097,56.087731366520643]},"properties":{"OBJECTID":2652,"Parkeringsplatstyp":"kvart_P","Namn":"Sofiero","Agartyp":"hbg","Antal_plats":100,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Vid större evenemang kan det tillkomma en avgift.","H22":null}},{"type":"Feature","id":2664,"geometry":{"type":"Point","coordinates":[12.652761977118679,56.098983169905566]},"properties":{"OBJECTID":2664,"Parkeringsplatstyp":"kvart_P","Namn":null,"Agartyp":"hbg","Antal_plats":100,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Laröds IP","H22":null}},{"type":"Feature","id":2681,"geometry":{"type":"Point","coordinates":[12.758617086942209,56.108655634318787]},"properties":{"OBJECTID":2681,"Parkeringsplatstyp":"kvart_P","Namn":"Ödåkra idraottshall","Agartyp":"hbg","Antal_plats":27,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Ödåkra idrottshall","H22":null}},{"type":"Feature","id":6402,"geometry":{"type":"Point","coordinates":[12.73407761168585,56.055283723753604]},"properties":{"OBJECTID":6402,"Parkeringsplatstyp":"kvart_P","Namn":"Flibornaskolan","Agartyp":"hbg","Antal_plats":274,"Tillaten_klass":"1_2","Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":8401,"geometry":{"type":"Point","coordinates":[12.690587548160064,56.070601173434206]},"properties":{"OBJECTID":8401,"Parkeringsplatstyp":"gatum_P","Namn":"Krematoriet","Agartyp":"hbg","Antal_plats":60,"Tillaten_klass":"1_2","Status":"oppen","Kom_ext":"Pålsjö Skog Krematoriet","H22":null}},{"type":"Feature","id":16401,"geometry":{"type":"Point","coordinates":[12.678739760178562,56.064728089493691]},"properties":{"OBJECTID":16401,"Parkeringsplatstyp":"kvart_P","Namn":"Pålsjöbaden","Agartyp":"hbg","Antal_plats":100,"Tillaten_klass":null,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":16812,"geometry":{"type":"Point","coordinates":[12.707930362020553,56.05731864669081]},"properties":{"OBJECTID":16812,"Parkeringsplatstyp":"gatum_P","Namn":"Fredriksdal huvudentre´","Agartyp":"hbg","Antal_plats":252,"Tillaten_klass":null,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":16813,"geometry":{"type":"Point","coordinates":[12.705600241921644,56.034607593870007]},"properties":{"OBJECTID":16813,"Parkeringsplatstyp":"gatum_P","Namn":"Finland","Agartyp":"hbg","Antal_plats":214,"Tillaten_klass":null,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":17203,"geometry":{"type":"Point","coordinates":[12.719738863301744,56.006149579751252]},"properties":{"OBJECTID":17203,"Parkeringsplatstyp":"gatum_P","Namn":"Knähaken","Agartyp":"hbg","Antal_plats":90,"Tillaten_klass":"1_2","Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":17228,"geometry":{"type":"Point","coordinates":[12.757082221429217,55.981688232200078]},"properties":{"OBJECTID":17228,"Parkeringsplatstyp":"gatum_P","Namn":"Örby ängar","Agartyp":"hbg","Antal_plats":200,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Örby ängar","H22":null}},{"type":"Feature","id":17229,"geometry":{"type":"Point","coordinates":[12.758184394470732,55.981802816465894]},"properties":{"OBJECTID":17229,"Parkeringsplatstyp":"gatum_P","Namn":"Örby ängar","Agartyp":"hbg","Antal_plats":100,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Örby ängar","H22":null}},{"type":"Feature","id":22001,"geometry":{"type":"Point","coordinates":[12.699384001129994,56.07267086445831]},"properties":{"OBJECTID":22001,"Parkeringsplatstyp":"gatum_P","Namn":"Pålsjö Kyrkogård","Agartyp":"hbg","Antal_plats":35,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Pålsjö Kyrkogård","H22":null}},{"type":"Feature","id":22003,"geometry":{"type":"Point","coordinates":[12.679618223020368,56.069476226790897]},"properties":{"OBJECTID":22003,"Parkeringsplatstyp":"gatum_P","Namn":"Pålsjö Slott","Agartyp":"hbg","Antal_plats":40,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Pålsjö Slott","H22":null}},{"type":"Feature","id":22005,"geometry":{"type":"Point","coordinates":[12.674720951823851,56.071351377480724]},"properties":{"OBJECTID":22005,"Parkeringsplatstyp":"gatum_P","Namn":"Naturpunkt Pålsjö","Agartyp":"hbg","Antal_plats":38,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Naturpunkt Landborgen","H22":null}},{"type":"Feature","id":22006,"geometry":{"type":"Point","coordinates":[12.670339992535947,56.07349282493184]},"properties":{"OBJECTID":22006,"Parkeringsplatstyp":"gatum_P","Namn":null,"Agartyp":"hbg","Antal_plats":17,"Tillaten_klass":null,"Status":"oppen","Kom_ext":null,"H22":null}},{"type":"Feature","id":22402,"geometry":{"type":"Point","coordinates":[12.758762676613472,55.966353375907971]},"properties":{"OBJECTID":22402,"Parkeringsplatstyp":"gatum_P","Namn":"Fortuna strand","Agartyp":"hbg","Antal_plats":200,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Fortuna Strand","H22":null}},{"type":"Feature","id":22403,"geometry":{"type":"Point","coordinates":[12.847418855217406,55.962359098540446]},"properties":{"OBJECTID":22403,"Parkeringsplatstyp":"kvart_P","Namn":"Vallhaga IP","Agartyp":"hbg","Antal_plats":50,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Vallhaga IP","H22":null}},{"type":"Feature","id":22404,"geometry":{"type":"Point","coordinates":[12.600624851149096,56.12606692306295]},"properties":{"OBJECTID":22404,"Parkeringsplatstyp":"gatum_P","Namn":"Domsten","Agartyp":"hbg","Antal_plats":200,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Domsten","H22":null}},{"type":"Feature","id":22801,"geometry":{"type":"Point","coordinates":[12.699232620302823,56.163860361994729]},"properties":{"OBJECTID":22801,"Parkeringsplatstyp":"kvart_P","Namn":"Svedberga Kulle","Agartyp":"hbg","Antal_plats":10,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Svedberga Kulle","H22":null}},{"type":"Feature","id":22802,"geometry":{"type":"Point","coordinates":[12.744734251559509,56.100020609526979]},"properties":{"OBJECTID":22802,"Parkeringsplatstyp":"kvart_P","Namn":"Toftavallen","Agartyp":"hbg","Antal_plats":60,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Toftavallen","H22":null}},{"type":"Feature","id":22803,"geometry":{"type":"Point","coordinates":[12.815652223059743,56.139631708055759]},"properties":{"OBJECTID":22803,"Parkeringsplatstyp":"kvart_P","Namn":"Hasslarps idrottsplats","Agartyp":"hbg","Antal_plats":20,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Hasslarps idrottsplats","H22":null}},{"type":"Feature","id":22804,"geometry":{"type":"Point","coordinates":[12.784268886313029,56.215549218672187]},"properties":{"OBJECTID":22804,"Parkeringsplatstyp":"kvart_P","Namn":"Vegeåns mynning","Agartyp":"hbg","Antal_plats":20,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Vegeåns mynning","H22":null}},{"type":"Feature","id":22805,"geometry":{"type":"Point","coordinates":[12.734808737585821,56.084611963418112]},"properties":{"OBJECTID":22805,"Parkeringsplatstyp":"kvart_P","Namn":"Väla Skog","Agartyp":"hbg","Antal_plats":10,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Väla skog","H22":null}},{"type":"Feature","id":22806,"geometry":{"type":"Point","coordinates":[12.876187900013102,56.066999336219602]},"properties":{"OBJECTID":22806,"Parkeringsplatstyp":"kvart_P","Namn":"Vidablick idrottsplats","Agartyp":"hbg","Antal_plats":20,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Vidablick idrottsplats","H22":null}},{"type":"Feature","id":22807,"geometry":{"type":"Point","coordinates":[12.8077522463375,56.029024163483221]},"properties":{"OBJECTID":22807,"Parkeringsplatstyp":"kvart_P","Namn":"Medivi idrottsplats Påarp","Agartyp":"hbg","Antal_plats":45,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Medivi idrottsplats Pårp","H22":null}},{"type":"Feature","id":22808,"geometry":{"type":"Point","coordinates":[12.763411598691169,56.00093019666047]},"properties":{"OBJECTID":22808,"Parkeringsplatstyp":"gatum_P","Namn":"Råååns dalgång Raus K:a","Agartyp":"hbg","Antal_plats":17,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Råååns dalgång Raus K:a","H22":null}},{"type":"Feature","id":22809,"geometry":{"type":"Point","coordinates":[12.807741492317156,56.012105039421691]},"properties":{"OBJECTID":22809,"Parkeringsplatstyp":"kvart_P","Namn":"Bårslövs idrottsplats","Agartyp":"hbg","Antal_plats":50,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Bårslövs idrottsplats","H22":null}},{"type":"Feature","id":22813,"geometry":{"type":"Point","coordinates":[12.803221667929982,55.985357353213573]},"properties":{"OBJECTID":22813,"Parkeringsplatstyp":"kvart_P","Namn":"Gantofta idrottsplats","Agartyp":"hbg","Antal_plats":20,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Gantofta Indrottsplats","H22":null}},{"type":"Feature","id":22814,"geometry":{"type":"Point","coordinates":[12.805489282263387,55.993536431187295]},"properties":{"OBJECTID":22814,"Parkeringsplatstyp":"kvart_P","Namn":"Råååns dalgång Gantofta","Agartyp":"hbg","Antal_plats":10,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Råååns dalgång Gantofta","H22":null}},{"type":"Feature","id":22815,"geometry":{"type":"Point","coordinates":[12.786428834604688,55.999345221568746]},"properties":{"OBJECTID":22815,"Parkeringsplatstyp":"kvart_P","Namn":"Råååns dalgång Görarps Mölla","Agartyp":"hbg","Antal_plats":16,"Tillaten_klass":null,"Status":"oppen","Kom_ext":"Råååns dalgång Görarps Mölla","H22":null}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1270,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7136164886491,
+          56.037672651878502
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1270,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Tegelpannan",
+        "Agartyp": "hbg",
+        "Antal_plats": 99,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1786,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.725066939657419,
+          56.036797503802383
+        ]
+      },
+      "properties": {
+        "OBJECTID": 1786,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Sundspärlan",
+        "Agartyp": "hbg",
+        "Antal_plats": 170,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2011,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.784252967179231,
+          55.965863942867003
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2011,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Rydebäck station östra",
+        "Agartyp": "hbg",
+        "Antal_plats": 18,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.795232422025157,
+          56.016279079211458
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2206,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Bårslöv P-plats samåkning",
+        "Agartyp": "hbg",
+        "Antal_plats": 16,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "P- Samåkning",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2445,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.694462112430296,
+          56.111352571207227
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2445,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Allerums idrottsplats",
+        "Agartyp": "hbg",
+        "Antal_plats": 23,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Allerums idrottsplats",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2490,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.753092528197207,
+          56.098700066527918
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2490,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Toftavallen",
+        "Agartyp": "hbg",
+        "Antal_plats": 30,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Toftavallen",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2650,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.664442265627342,
+          56.079760251434557
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2650,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": null,
+        "Agartyp": "hbg",
+        "Antal_plats": 26,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Tinkarpsbacken",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2651,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.664019351807765,
+          56.085507519014527
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2651,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Sofiero Huvudentré",
+        "Agartyp": "hbg",
+        "Antal_plats": 150,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Vid större evenemang kan det tillkomma en avgift.",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2652,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.661409633273097,
+          56.087731366520643
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2652,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Sofiero",
+        "Agartyp": "hbg",
+        "Antal_plats": 100,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Vid större evenemang kan det tillkomma en avgift.",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2664,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.652761977118679,
+          56.098983169905566
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2664,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": null,
+        "Agartyp": "hbg",
+        "Antal_plats": 100,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Laröds IP",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2681,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.758617086942209,
+          56.108655634318787
+        ]
+      },
+      "properties": {
+        "OBJECTID": 2681,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Ödåkra idraottshall",
+        "Agartyp": "hbg",
+        "Antal_plats": 27,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Ödåkra idrottshall",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.73407761168585,
+          56.055283723753604
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6402,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Flibornaskolan",
+        "Agartyp": "hbg",
+        "Antal_plats": 274,
+        "Tillaten_klass": "1_2",
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.690587548160064,
+          56.070601173434206
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8401,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Krematoriet",
+        "Agartyp": "hbg",
+        "Antal_plats": 60,
+        "Tillaten_klass": "1_2",
+        "Status": "oppen",
+        "Kom_ext": "Pålsjö Skog Krematoriet",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.678739760178562,
+          56.064728089493691
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16401,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Pålsjöbaden",
+        "Agartyp": "hbg",
+        "Antal_plats": 100,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16812,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.707930362020553,
+          56.05731864669081
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16812,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Fredriksdal huvudentre´",
+        "Agartyp": "hbg",
+        "Antal_plats": 252,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16813,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.705600241921644,
+          56.034607593870007
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16813,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Finland",
+        "Agartyp": "hbg",
+        "Antal_plats": 214,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17203,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.719738863301744,
+          56.006149579751252
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17203,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Knähaken",
+        "Agartyp": "hbg",
+        "Antal_plats": 90,
+        "Tillaten_klass": "1_2",
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17228,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.757082221429217,
+          55.981688232200078
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17228,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Örby ängar",
+        "Agartyp": "hbg",
+        "Antal_plats": 200,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Örby ängar",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.758184394470732,
+          55.981802816465894
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17229,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Örby ängar",
+        "Agartyp": "hbg",
+        "Antal_plats": 100,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Örby ängar",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22001,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.699384001129994,
+          56.07267086445831
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22001,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Pålsjö Kyrkogård",
+        "Agartyp": "hbg",
+        "Antal_plats": 35,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Pålsjö Kyrkogård",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22003,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.679618223020368,
+          56.069476226790897
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22003,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Pålsjö Slott",
+        "Agartyp": "hbg",
+        "Antal_plats": 40,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Pålsjö Slott",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22005,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.674720951823851,
+          56.071351377480724
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22005,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Naturpunkt Pålsjö",
+        "Agartyp": "hbg",
+        "Antal_plats": 38,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Naturpunkt Landborgen",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22006,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.670339992535947,
+          56.07349282493184
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22006,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": null,
+        "Agartyp": "hbg",
+        "Antal_plats": 17,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": null,
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.758762676613472,
+          55.966353375907971
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22402,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Fortuna strand",
+        "Agartyp": "hbg",
+        "Antal_plats": 200,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Fortuna Strand",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22403,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.847418855217406,
+          55.962359098540446
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22403,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Vallhaga IP",
+        "Agartyp": "hbg",
+        "Antal_plats": 50,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Vallhaga IP",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22404,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.600624851149096,
+          56.12606692306295
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22404,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Domsten",
+        "Agartyp": "hbg",
+        "Antal_plats": 200,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Domsten",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22801,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.699232620302823,
+          56.163860361994729
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22801,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Svedberga Kulle",
+        "Agartyp": "hbg",
+        "Antal_plats": 10,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Svedberga Kulle",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22802,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.744734251559509,
+          56.100020609526979
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22802,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Toftavallen",
+        "Agartyp": "hbg",
+        "Antal_plats": 60,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Toftavallen",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22803,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.815652223059743,
+          56.139631708055759
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22803,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Hasslarps idrottsplats",
+        "Agartyp": "hbg",
+        "Antal_plats": 20,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Hasslarps idrottsplats",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22804,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.784268886313029,
+          56.215549218672187
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22804,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Vegeåns mynning",
+        "Agartyp": "hbg",
+        "Antal_plats": 20,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Vegeåns mynning",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22805,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.734808737585821,
+          56.084611963418112
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22805,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Väla Skog",
+        "Agartyp": "hbg",
+        "Antal_plats": 10,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Väla skog",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22806,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.876187900013102,
+          56.066999336219602
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22806,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Vidablick idrottsplats",
+        "Agartyp": "hbg",
+        "Antal_plats": 20,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Vidablick idrottsplats",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22807,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8077522463375,
+          56.029024163483221
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22807,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Medivi idrottsplats Påarp",
+        "Agartyp": "hbg",
+        "Antal_plats": 45,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Medivi idrottsplats Pårp",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22808,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.763411598691169,
+          56.00093019666047
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22808,
+        "Parkeringsplatstyp": "gatum_P",
+        "Namn": "Råååns dalgång Raus K:a",
+        "Agartyp": "hbg",
+        "Antal_plats": 17,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Råååns dalgång Raus K:a",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22809,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.807741492317156,
+          56.012105039421691
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22809,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Bårslövs idrottsplats",
+        "Agartyp": "hbg",
+        "Antal_plats": 50,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Bårslövs idrottsplats",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22813,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.803221667929982,
+          55.985357353213573
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22813,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Gantofta idrottsplats",
+        "Agartyp": "hbg",
+        "Antal_plats": 20,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Gantofta Indrottsplats",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22814,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.805489282263387,
+          55.993536431187295
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22814,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Råååns dalgång Gantofta",
+        "Agartyp": "hbg",
+        "Antal_plats": 10,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Råååns dalgång Gantofta",
+        "H22": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22815,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.786428834604688,
+          55.999345221568746
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22815,
+        "Parkeringsplatstyp": "kvart_P",
+        "Namn": "Råååns dalgång Görarps Mölla",
+        "Agartyp": "hbg",
+        "Antal_plats": 16,
+        "Tillaten_klass": null,
+        "Status": "oppen",
+        "Kom_ext": "Råååns dalgång Görarps Mölla",
+        "H22": null
+      }
+    }
+  ]
+}

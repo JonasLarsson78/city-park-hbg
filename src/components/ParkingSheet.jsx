@@ -25,8 +25,10 @@ export default function ParkingSheet({ feature, onClose }) {
   if (!feature) return null
 
   const p = feature.properties
-  const avgift = p.Taxa_avgbeltid ? `${p.Taxa_avgbeltid} kr/tim` : null
+  const avgift = p.Taxa_avgbeltid && !['fri','gr_oreg'].includes(p.Taxa_avgbeltid) ? `${p.Taxa_avgbeltid} kr/tim` : null
   const avgiftOvrig = p.Taxa_ovrig_tid ? `${p.Taxa_ovrig_tid} kr/tim (övrig tid)` : null
+  const typeLabel = p._type === 'pr' ? 'Park & Ride' : p._type === 'priv' ? 'Privat parkering' : p._type === 'stad' ? 'Kommunal parkering' : null
+  const platstyp = p.Parkeringsplatstyp === 'gatum_P' ? 'Gatumarkerad parkering' : p.Parkeringsplatstyp === 'kvart_P' ? 'Kvarters-/däcksparkering' : null
 
   return (
     <>
@@ -38,9 +40,10 @@ export default function ParkingSheet({ feature, onClose }) {
           <div className={styles.pBadge}>P</div>
           <div>
             <h2 className={styles.title}>{p.Namn}</h2>
-            {p.Antal_plats && (
-              <p className={styles.subtitle}>{p.Antal_plats} parkeringsplatser</p>
-            )}
+            {p.Antal_plats
+              ? <p className={styles.subtitle}>{[typeLabel, `${p.Antal_plats} platser`].filter(Boolean).join(' · ')}</p>
+              : typeLabel && <p className={styles.subtitle}>{typeLabel}</p>
+            }
           </div>
           <button className={styles.closeBtn} onClick={onClose} aria-label="Stäng">✕</button>
         </div>
@@ -53,10 +56,17 @@ export default function ParkingSheet({ feature, onClose }) {
             <Row label="Helgdagar" value={p.Avgbeltid_helg} />
           </div>
 
+          {(platstyp || p.Kom_ext) && (
+            <div className={styles.section}>
+              <Row label="Typ" value={platstyp} />
+              <Row label="Operatör" value={p.Kom_ext} />
+            </div>
+          )}
           <div className={styles.section}>
             <h3 className={styles.sectionTitle}>Taxa</h3>
             <Row label="Avgiftstid" value={avgift} />
             <Row label="Övrig tid" value={avgiftOvrig} />
+            <Row label="Maxtid" value={p.Tid_avgbeltid} />
           </div>
 
           {(p.Tele_P_nr || p.EasyPark_nr) && (

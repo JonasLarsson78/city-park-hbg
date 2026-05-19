@@ -22,13 +22,21 @@ const LAYER_ICONS = {
 }
 
 function featureKey(f) {
+  if (f.properties?._zone) return `zone-${f.properties.OBJECTID ?? f.properties.Namn}`
   const [lng, lat] = f.geometry.coordinates
   return `${lat},${lng}`
 }
 
+function polygonCentroid(coords) {
+  const ring = coords[0]
+  let lat = 0, lng = 0
+  for (const [x, y] of ring) { lng += x; lat += y }
+  return [lat / ring.length, lng / ring.length]
+}
+
 const PRICE_COLORS = {
-  light: { '5': '#2a9d5c', '10': '#e8a020', '15': '#e07020', '20': '#c0392b', '30': '#7b1fa2', 'gr_oreg': '#888888', default: '#0f4c75' },
-  dark:  { '5': '#4ade80', '10': '#fbbf24', '15': '#fb923c', '20': '#f87171', '30': '#ce93d8', 'gr_oreg': '#aaaaaa', default: '#4fc3f7' },
+  light: { '5': '#2a9d5c', '10': '#e8a020', '15': '#e07020', '20': '#c0392b', '30': '#7b1fa2', 'fri': '#0097a7', 'gr_oreg': '#888888', default: '#0f4c75' },
+  dark:  { '5': '#4ade80', '10': '#fbbf24', '15': '#fb923c', '20': '#f87171', '30': '#ce93d8', 'fri': '#4dd0e1', 'gr_oreg': '#aaaaaa', default: '#4fc3f7' },
 }
 
 function getPriceColor(price, dark) {
@@ -183,7 +191,24 @@ function makeZoneStyle(dark) {
   }
 }
 
-export default function ParkingMap({ features, zones, onSelect, selected }) {
+function zoneToFeature(zone) {
+  const p = zone.properties
+  return {
+    ...zone,
+    properties: {
+      Namn: p.Omradesnamn,
+      Taxa_avgbeltid: p.Taxa_avgbeltid,
+      Avgbeltid_vardag: p.Avgbeltid_vardag,
+      Avgbeltid_vard_helg: p.Avgbeltid_vard_helg,
+      Avgbeltid_helg: p.Avgbeltid_helg,
+      Tid_avgbeltid: p.Tid_avgbeltid,
+      OBJECTID: p.OBJECTID,
+      _zone: true,
+    },
+  }
+}
+
+export default function ParkingMap({ features, extraFeatures = [], zones, onSelect, selected }) {
   const [activeLayer, setActiveLayer] = useLocalStorage('park-hbg:layer', 'light')
   const [layerOpen, setLayerOpen] = useState(false)
   const selectedKey = selected ? featureKey(selected) : null
@@ -194,6 +219,10 @@ export default function ParkingMap({ features, zones, onSelect, selected }) {
     setLayerOpen(false)
   }
 
+  const onEachZone = useCallback((feature, layer) => {
+    layer.on('click', () => onSelect(zoneToFeature(feature)))
+  }, [onSelect])
+
   return (
     <MapContainer center={HBG_CENTER} zoom={ZOOM} style={{ height: '100%', width: '100%' }} zoomControl={false}>
       <TileLayer key={activeLayer} url={layer.url} attribution={layer.attribution} maxZoom={19} />
@@ -202,6 +231,7 @@ export default function ParkingMap({ features, zones, onSelect, selected }) {
           key={`${zones.length}-${activeLayer}`}
           data={{ type: 'FeatureCollection', features: zones.filter(f => f.geometry?.type === 'Polygon' || f.geometry?.type === 'MultiPolygon') }}
           style={makeZoneStyle(activeLayer === 'dark')}
+          onEachFeature={onEachZone}
         />
       )}
       <MarkerClusterGroup chunkedLoading showCoverageOnHover={false} maxClusterRadius={50} disableClusteringAtZoom={19}>
@@ -215,6 +245,43 @@ export default function ParkingMap({ features, zones, onSelect, selected }) {
               position={[lat, lng]}
               icon={createPinIcon(key === selectedKey, activeLayer === 'dark', price)}
               eventHandlers={{ click: () => onSelect(feature) }}
+            />
+          )
+        })}
+        {extraFeatures.map(feature => {
+          const [lng, lat] = feature.geometry.coordinates
+          const key = featureKey(feature)
+          const price = feature.properties?.Taxa_avgbeltid
+          return (
+            <Marker
+              key={`extra-${key}`}
+              position={[lat, lng]}
+              icon={createPinIcon(key === selectedKey, activeLayer === 'dark', price)}
+              eventHandlers={{ click: () => onSelect(feature) }}
+            />
+          )
+        })}
+        {zones.filter(f => f.geometry?.type === 'Polygon' || f.geometry?.type === 'MultiPolygon').filter(zone => {
+          const coords = zone.geometry.type === 'Polygon' ? zone.geometry.coordinates : zone.geometry.coordinates[0]
+          const [zlat, zlng] = polygonCentroid(coords)
+          return !features.some(f => {
+            const [flng, flat] = f.geometry.coordinates
+            const dlat = (flat - zlat) * 111320
+            const dlng = (flng - zlng) * 111320 * Math.cos(zlat * Math.PI / 180)
+            return Math.sqrt(dlat * dlat + dlng * dlng) < 80
+          })
+        }).map(zone => {
+          const coords = zone.geometry.type === 'Polygon' ? zone.geometry.coordinates : zone.geometry.coordinates[0]
+          const [lat, lng] = polygonCentroid(coords)
+          const zf = zoneToFeature(zone)
+          const key = featureKey(zf)
+          const price = zone.properties?.Taxa_avgbeltid
+          return (
+            <Marker
+              key={key}
+              position={[lat, lng]}
+              icon={createPinIcon(key === selectedKey, activeLayer === 'dark', price)}
+              eventHandlers={{ click: () => onSelect(zf) }}
             />
           )
         })}

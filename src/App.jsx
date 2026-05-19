@@ -6,7 +6,7 @@ import FilterSheet from './components/FilterSheet'
 import LoadingScreen from './components/LoadingScreen'
 import { useLocalStorage } from './hooks/useLocalStorage'
 
-const DEFAULT_FILTERS = { prices: [], apps: [] }
+const DEFAULT_FILTERS = { prices: [], apps: [], hiddenTypes: [] }
 
 function deduplicateFeatures(features) {
   const kept = []
@@ -28,10 +28,12 @@ function deduplicateFeatures(features) {
 
 export default function App() {
   const [allFeatures, setAllFeatures] = useState([])
+  const [extraFeatures, setExtraFeatures] = useState([])
   const [zones, setZones] = useState([])
   const [selected, setSelected] = useState(null)
   const [query, setQuery] = useState('')
-  const [filters, setFilters] = useLocalStorage('park-hbg:filters', DEFAULT_FILTERS)
+  const [rawFilters, setFilters] = useLocalStorage('park-hbg:filters', DEFAULT_FILTERS)
+  const filters = { ...DEFAULT_FILTERS, ...rawFilters }
   const [filterOpen, setFilterOpen] = useState(false)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
@@ -67,7 +69,31 @@ export default function App() {
       .then(data => { if (data?.features) setZones(data.features) })
       .catch(() => {})
 
-    Promise.all([spotsPromise, zonesPromise])
+    const extraPromise = Promise.all([
+      fetch('/storr-parkeringar-stad.geojson').then(r => r.json()).catch(() => ({ features: [] })),
+      fetch('/storr-parkeringar-privat.geojson').then(r => r.json()).catch(() => ({ features: [] })),
+      fetch('/park-and-ride.geojson').then(r => r.json()).catch(() => ({ features: [] })),
+    ]).then(([stad, priv, pr]) => {
+      const toFeature = (f, type) => ({
+        ...f,
+        properties: {
+          Namn: f.properties.Namn,
+          Antal_plats: f.properties.Antal_plats ?? null,
+          Kom_ext: f.properties.Kom_ext ?? null,
+          Parkeringsplatstyp: f.properties.Parkeringsplatstyp ?? null,
+          Taxa_avgbeltid: type === 'pr' ? 'fri' : null,
+          Status: 'aktiv',
+          _type: type,
+        },
+      })
+      setExtraFeatures([
+        ...stad.features.filter(f => f.properties.Status === 'oppen').map(f => toFeature(f, 'stad')),
+        ...priv.features.filter(f => f.properties.Status === 'oppen').map(f => toFeature(f, 'priv')),
+        ...pr.features.filter(f => f.properties.Status === 'oppen').map(f => toFeature(f, 'pr')),
+      ])
+    })
+
+    Promise.all([spotsPromise, zonesPromise, extraPromise])
       .then(() => setLoading(false))
       .catch(e => { setError(e.message); setLoading(false) })
   }, [])
@@ -97,7 +123,11 @@ export default function App() {
     return result
   }, [allFeatures, query, filters])
 
-  const activeFilterCount = filters.prices.length + filters.apps.length
+  const filteredExtras = useMemo(() =>
+    extraFeatures.filter(f => !filters.hiddenTypes.includes(f.properties._type))
+  , [extraFeatures, filters.hiddenTypes])
+
+  const activeFilterCount = filters.prices.length + filters.apps.length + filters.hiddenTypes.length
 
   const handleSelect = feature => {
     setSelected(feature)
@@ -113,7 +143,7 @@ export default function App() {
 
   return (
     <div style={{ height: '100%', position: 'relative' }}>
-      <ParkingMap features={filteredFeatures} zones={zones} onSelect={handleSelect} selected={selected} />
+      <ParkingMap features={filteredFeatures} extraFeatures={filteredExtras} zones={zones} onSelect={handleSelect} selected={selected} />
       <SearchBar
         value={query}
         onChange={setQuery}

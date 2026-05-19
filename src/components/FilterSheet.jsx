@@ -5,6 +5,11 @@ const APPS = [
   { id: 'telep', label: 'TeleP' },
   { id: 'easypark', label: 'EasyPark' },
 ]
+const TYPES = [
+  { id: 'stad',  label: 'Kommunal parkering' },
+  { id: 'priv',  label: 'Privat parkering' },
+  { id: 'pr',    label: 'Park & Ride' },
+]
 
 function Chip({ label, active, onClick }) {
   return (
@@ -26,8 +31,8 @@ export default function FilterSheet({ filters, onChange, onClose, totalVisible, 
     onChange({ ...filters, [key]: next })
   }
 
-  const reset = () => onChange({ prices: [], apps: [] })
-  const hasFilters = filters.prices.length > 0 || filters.apps.length > 0
+  const reset = () => onChange({ prices: [], apps: [], hiddenTypes: [] })
+  const hasFilters = filters.prices.length > 0 || filters.apps.length > 0 || filters.hiddenTypes.length > 0
 
   return (
     <>
@@ -66,6 +71,20 @@ export default function FilterSheet({ filters, onChange, onClose, totalVisible, 
                 label={app.label}
                 active={filters.apps.includes(app.id)}
                 onClick={() => toggle('apps', app.id)}
+              />
+            ))}
+          </div>
+        </div>
+
+        <div className={styles.section}>
+          <h3 className={styles.sectionTitle}>Dölj parkeringstyp</h3>
+          <div className={styles.chips}>
+            {TYPES.map(t => (
+              <Chip
+                key={t.id}
+                label={t.label}
+                active={filters.hiddenTypes.includes(t.id)}
+                onClick={() => toggle('hiddenTypes', t.id)}
               />
             ))}
           </div>

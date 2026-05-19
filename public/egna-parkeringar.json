@@ -39,7 +39,7 @@
     "namn": "Senderödsvägen",
     "lat": 56.076460,
     "lng": 12.696671,
-    "pris": "0",
+    "pris": null,
     "platser": 20,
     "tider_vardag": null,
     "tider_helg": null,
